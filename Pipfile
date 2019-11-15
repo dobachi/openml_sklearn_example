@@ -10,7 +10,6 @@ scikit-learn = "*"
 pandas = "*"
 openml = "*"
 jupyter = "*"
-pylzma = "*"
 
 [requires]
 python_version = "3.7"
