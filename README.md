@@ -13,6 +13,10 @@
 
 [pipenv]: https://pipenv.kennethreitz.org/en/latest/
 
+aptやpipでpipenvをインストールした後、本ディレクトリ内で `pipenv install` すると、
+このノートブックを実行する際に必要なライブラリが仮想Python環境にインストールされる。
+その後、 `pipenv run jupyter notebook` でノートブックを開くとよい。
+
 ## 注意点
 
 なお、注意点として、lzma関連の開発パッケージをインストールしておかないと警告が生じるという点が挙げられる。
